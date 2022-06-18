@@ -17,7 +17,6 @@ const styles = {
 }
 
 const App = () => {
-    console.log('app')
     return (
         <div style={styles.wrapper}>
             <div style={styles.userWrapper}>
