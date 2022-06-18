@@ -1,3 +1,6 @@
+import './App.css';
+import UserCard from './UserCard';
+
 
 const styles = {
     wrapper: {
@@ -17,7 +20,7 @@ const App = () => {
     return (
         <div style={styles.wrapper}>
             <div style={styles.userWrapper}>
-                Create your UserCard
+                <UserCard/>
             </div>
         </div>
     )
