@@ -1,5 +1,4 @@
-import './App.css';
-import UserCard from './UserCard';
+import UserList from './components/UserList'
 
 
 const styles = {
@@ -11,7 +10,7 @@ const styles = {
     userWrapper: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        // alignItems: 'center',
         height: '100%',
     },
 }
@@ -20,7 +19,7 @@ const App = () => {
     return (
         <div style={styles.wrapper}>
             <div style={styles.userWrapper}>
-                <UserCard/>
+                <UserList />
             </div>
         </div>
     )
