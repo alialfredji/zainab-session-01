@@ -1,3 +1,5 @@
+import UserList from './components/UserList'
+
 
 const styles = {
     wrapper: {
@@ -8,7 +10,7 @@ const styles = {
     userWrapper: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        // alignItems: 'center',
         height: '100%',
     },
 }
@@ -17,7 +19,7 @@ const App = () => {
     return (
         <div style={styles.wrapper}>
             <div style={styles.userWrapper}>
-                Create your UserCard
+                <UserList />
             </div>
         </div>
     )
